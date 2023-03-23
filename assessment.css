@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.main{
+    height: 650px;
+    width: 950px;
+    margin: auto;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+h1{
+    border-bottom:2px solid gray;
+    width: 850px;
+    font-weight: 200;
+    font-size: 25px;
+    padding:10px 0 10px 0;
+    box-sizing: border-box;
+    margin:auto;
+}
+.main .header{
+    height: 100px;
+    width: 850px;
+    background-color:#f5f5f5;
+    display: flex;
+    margin: 20px auto;
+}
+.header .one{
+    width:283px;
+}
+.one h2,p{
+    margin: 10px 0 0 15px;
+}
+.header .two{
+    width: 283px;
+    
+}
+.two .number{
+    color: red;
+    margin: 35px 0 0 50px;
+
+}
+.email{
+    color: rgb(17, 165, 214);
+    margin: 10px 0 0 50px;
+}
+.header .three{
+    width: 284px;
+}
+.header .three i{
+    font-size: 30px;
+    margin: 35px 115px;
+    color: red;
+}
+.main .sub{
+    height: 400px;
+    width: 850px;
+    background-color: #f5f5f5;
+    margin: 30px auto;
+    display: flex;
+}
+.left{
+    height: 400px;
+    width: 50%;
+}
+.right{
+    height: 400px;
+    width: 50%;
+    padding: 15px 15px 15px 0;
+    box-sizing: border-box;
+}
+.left .name,.mobail{
+    display: flex;
+}
+.name input,.mobail input{
+    margin: 15px 0 0 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px ;
+    border-radius: 3px;
+}
+.message{
+    margin: 30px 0 0 10px;
+    box-shadow: 0 0 2px ;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.send{
+    background-color: rgb(231, 78, 78);
+    margin: 30px 0 0 10px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+iframe{
+    height: 325px;
+    width: 100%;
+}
+.icon {
+    margin-top: 5px;
+    font-size: 30px;
+}
+.fa-square-facebook{
+    color: rgb(66 103 178);
+}
+.fa-square-twitter{
+    color: rgb(29 161 242);
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+.fa-square-github{
+    color: black;
+}
+
